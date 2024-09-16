@@ -1,0 +1,10 @@
+└  Your project is ready!
+
+Install more integrations with:
+  npx svelte-add
+
+Next steps:
+  1: cd gym-app-landingpage
+  2: npm install
+  3: git init && git add -A && git commit -m "Initial commit" (optional)
+  4: npm run dev -- --open
