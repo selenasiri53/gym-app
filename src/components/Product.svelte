@@ -46,19 +46,19 @@
             </h3> 
 
         </div>
-        <div class="grid grid-cols-1 md:grid-cols-2 gap-14 md:gap-14 lg:gap-20 w-full relative text-base">
-            {#each productFeatures as productFeature, index}
-                <ProductCard productFeature=
-                    {productFeature} {index}>
-                        {#if index===0}
-                        Experience a beginner exercise <span class="text-indigo-400 font-medium">master</span> class
-                        {:else if index===1}
-                        Lay the foundations for <span class="text-indigo-400 font-medium">routine</span><br/> and consistency
-                        {:else}
-                        Workouts specific to your <span class="text-indigo-400 font-medium">environment</span> and <span class="text-indigo-400 font-medium">expertise</span>
-                        {/if}
+
+        <!-- refactored -->
+        {#each productFeatures as productFeature, index}
+            <ProductCard productFeature=
+                {productFeature} {index}>
+                    {#if index===0}
+                    Experience a beginner exercise <span class="text-indigo-400 font-medium">master</span> class
+                    {:else if index===1}
+                    Lay the foundations for <span class="text-indigo-400 font-medium">routine</span><br/> and consistency
+                    {:else}
+                    Workouts specific to your <span class="text-indigo-400 font-medium">environment</span> and <span class="text-indigo-400 font-medium">expertise</span>
+                    {/if}
                 </ProductCard>
-            {/each}
-        </div>
+        {/each}
     </div>
 </SectionWrapper>
