@@ -1,5 +1,5 @@
 <script>
-    
+  import { openModal } from "../store"
 </script>
 
 <header class="flex flex-col relative z-20">
@@ -9,7 +9,7 @@
                 Swoley <span class="text-indigo-400">Moley</span>
             </h1>
         </a>
-        <button class="md:hidden grid place-items-center">
+        <button on:click={() => ($openModal = true)} class="md:hidden grid place-items-center">
             <i class="fa-solid fa-bars"></i>
         </button>
         <!-- navbar hidden on a small screen, small version shows hamburger icon -->

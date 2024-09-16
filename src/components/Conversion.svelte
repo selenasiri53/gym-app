@@ -7,7 +7,7 @@
         Reach your fitness <span class="poppins font-bold">goals and aspirations</span>
     </h4>
     <p class="poppins text-base sm:text-lg md:text-xl">
-        + Unlimited time on Free plan +
+        ✨ Unlimited time on Free plan ✨
     </p>
     <CtAs dark={true} />
 </section>

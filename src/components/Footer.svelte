@@ -4,7 +4,7 @@
             <h1 class="font-semibold">
                 Swoley <span class="text-indigo-400">Moley</span>
             </h1>
-            <p>2023 SWOLEY MOLEY LTD. All rights reserved.</p>
+            <p>©2023 SWOLEY MOLEY LTD. All Rights Reserved.</p>
         </div>
         <div class="flex flex-col gap-4">
             <p class="font-bold poppins text-base sm:text-lg">Support</p>
@@ -21,7 +21,7 @@
                 target="_blank"
                 class="cursor-pointer hover:text-indigo-400 duration-200"
             >
-            Read the science
+            Read the Science
             </a>
         </div>
         <div class="flex flex-col gap-4">
